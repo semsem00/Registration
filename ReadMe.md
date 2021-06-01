@@ -16,5 +16,5 @@ if they are not vailed show them a message for the reason
 - **logIN**    
  check Email , Password wether they are valied or not and if they valied, you will go to the welcome page. 
 if they are not vailed show them a message for the reason 
--**displayUser** 
+- **displayUser** 
 say welcome to user . 
