@@ -1,0 +1,43 @@
+<html>
+    <head>
+          <link rel="stylesheet" href="css/all.min.css">
+          <link rel="stylesheet" href="css/bootstrap.min.css">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+     <div class="container">
+         <div class="item d-flex align-items-center justify-content-center vh-100">
+             <div class="Signup d-flex flex-column  p-5 shadow-lg">
+                 <h1>Smart Login System</h1>
+                
+                     <input type="text" placeholder="Enter your name" id="signName">
+                     <input type="email" placeholder="Enter your email" id="signEmail">
+                     <input type="password" placeholder="Enter your password" id="signPass">
+                
+                 <p class="d-none text-success text-center font-weight-bold" id="confirmSuccess">Success</p>
+                 <p class="d-none text-danger font-weight-bold text-center" id="existAccount" >This Acount Is Already Exist </p>
+                 <p class="d-none text-danger font-weight-bold text-center" id="confirmFailed">Sign up Failed ! please Try Again</p>
+                 <p class="d-none text-danger font-weight-bold text-center" id="exist">All Input Filed is Required</p>
+                 <a type="submit" class="btn btn-danger my-2" onclick="signUP()" id="btnSignup">Sign up</a>
+                 <p>You have an account? <a href="login.html">Sign in</a></p>
+             </div>
+         </div>
+     </div>
+
+
+
+
+
+
+
+
+       <script src="js/jquery-3.6.0.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/main.js"></script>
+
+
+    </body>
+</html>

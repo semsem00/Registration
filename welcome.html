@@ -1,0 +1,45 @@
+<html>
+    <head>
+          <link rel="stylesheet" href="css/all.min.css">
+          <link rel="stylesheet" href="css/bootstrap.min.css">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"> 
+          <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body onload="displayUser();">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color"> 
+              <div class="container">
+                  <a href="#" class="navbar-brand text-white">SMART LOGIN</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navnar-nav ml-auto list-unstyled">
+                          <li class="nav-item">
+                             <a href="login.html" class="nav-link btn btn-outline-info" onclick="logout();">Logout</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="item m-auto vh-100 p-5   d-flex align-items-center justify-content-center">
+                <h1 id="WelcomUser" class="text-warning w-75 shadow-lg p-5 font-weight-bold"></h1>
+            </div>
+        </div>
+
+
+
+
+
+
+       <script src="js/jquery-3.6.0.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/main.js"></script>
+
+
+    </body>
+</html>

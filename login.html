@@ -1,0 +1,39 @@
+<html>
+    <head>
+          <link rel="stylesheet" href="css/all.min.css">
+          <link rel="stylesheet" href="css/bootstrap.min.css">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"> 
+          <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+     <div class="container">
+         <div class="item d-flex align-items-center justify-content-center vh-100">
+             <div class="login d-flex flex-column  p-5 shadow-lg ">
+                 <h1>Smart Login System</h1>
+                 <input type="email" placeholder="Enter your email" id="logEmail">
+                 <input type="password" placeholder="Enter your password" id="logPass">
+
+                 <p class="d-none text-danger " id="fillInp">Please Fill the inputs</p>
+                 <p class="d-none text-danger" id="errorMsg">Your Email or Password is Incorrect</p>
+                 <a type="submit" class="btn btn-danger my-2"  onclick="logIN();" id="btnLogin">Login</a>
+                 <p>Don’t have an account? <a href="index.html">Sign Up</a></p>
+             </div>
+         </div>
+     </div>
+
+
+
+
+
+
+
+
+       <script src="js/jquery-3.6.0.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/main.js"></script>
+
+
+    </body>
+</html>

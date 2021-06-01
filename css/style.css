@@ -1,0 +1,36 @@
+
+body{
+    background-image: url("../images/pexels-bess-hamiti-36487.jpg");
+    background-size: 100% 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*___________________________Login page_______________________________________________*/
+
+
+
+.login, .signup{
+    background-color: rgba(39, 45, 71, 0.5);
+    color: #fff;
+}
+
+input{
+    margin:10px 0 ;
+    padding: 6px 12px;
+    border-radius: 5px;
+   
+}
+
+.login a ,.signup a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*__________________________End Login page_________________________________________________*/
+
+.bg-color{
+    background-color: rgba(20, 35, 51, .5);
+}
+
+
+
